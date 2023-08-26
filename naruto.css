@@ -1,0 +1,27 @@
+body{
+    display: flexbox;
+    background-image: url(naruto.jpg);
+    opacity: 0.8;
+}
+h1{ 
+    
+text-align: center;
+font-family: fantasy;
+font-size: xx-large;
+
+
+}
+h3{
+    font-family: cursive;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+p{  color:blue;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
