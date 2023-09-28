@@ -1,0 +1,79 @@
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(213, 216, 195, 0.92);
+  }
+  /* Rest of your existing CSS styles */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  .navbar a:hover {
+    color: rgb(43, 43, 122);
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .circular-image {
+    width: 250px; /* Adjust the width and height as needed */
+    height: 250px;
+    border-radius: 50%; /* Creates the circular shape */
+    overflow: hidden; /* Hides image overflow outside the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adds space between the image and the text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  }
+  
+  .circular-image img {
+    width: 100%; /* Ensures the image covers the circular area */
+    height: auto; /* Maintains the image aspect ratio */
+    display: block; /* Removes extra space below the image */
+    transition: all 2s;
+  }
+  .circular-image img:hover{
+    transform:scale(1.1)
+  }
+  
+  .about {
+    color: rgba(215, 215, 230, 0.674);
+    text-align: center;
+    font-size: x-large;
+    font-family:cursive;
+    padding-left:20%;
+    padding-right:20%;
+    transition: color 2s ease-in-out; /* Transition for color change over 0.3 seconds */
+  }
+  
+  .about:hover {
+    color: rgb(0, 0, 62); /* Change color to red on hover (adjust as needed) */
+  }
+  .TF{
+    transition: color 0.7s ease-in-out;
+  }
+.TF:hover{
+    color:rgb(176, 61, 176);
+    box-shadow: 5cap;
+}
+.external-links{
+    justify-content: flex-start;
+}
+  
